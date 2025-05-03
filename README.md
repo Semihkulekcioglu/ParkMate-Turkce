@@ -1,50 +1,48 @@
-# Welcome to your Expo app 👋
+# ParkMate
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+🅿️ **ParkMate** — Akıllı Otopark ve PIN Kodu Yönetim Sistemi
 
-## Get started
+## Proje Açıklaması
+ParkMate, kullanıcıların araç giriş-çıkış işlemlerini PIN kodu ile kolayca yönetebildiği, geçmiş park ve ödeme işlemlerini görüntüleyebildiği modern bir otopark uygulamasıdır. React Native (Expo) ve Firebase Realtime Database altyapısı ile geliştirilmiştir.
 
-1. Install dependencies
+## Özellikler
+- Kullanıcı kayıt ve giriş sistemi (Firebase Authentication)
+- PIN kodu ile araç giriş ve çıkış işlemleri
+- Giriş/çıkış işlemlerinin ve ödemelerin geçmişini görüntüleme
+- Modern ve kullanıcı dostu arayüz
+- Mobil ve web desteği
 
-   ```bash
+## Kurulum
+1. **Projeyi klonlayın:**
+   ```sh
+   git clone https://github.com/kullaniciadiniz/ParkMate.git
+   cd ParkMate
+   ```
+2. **Bağımlılıkları yükleyin:**
+   ```sh
    npm install
+   # veya
+   yarn install
+   ```
+3. **Firebase yapılandırmasını ayarlayın:**
+   - `constants/firebaseConfig.ts` dosyasındaki Firebase ayarlarını kendi projenize göre güncelleyin.
+4. **Projeyi başlatın:**
+   ```sh
+   npx expo start
    ```
 
-2. Start the app
+## Kullanım
+- Uygulama açıldığında kullanıcıdan giriş yapması istenir.
+- Kayıt olmayan kullanıcılar kolayca hesap oluşturabilir.
+- Giriş yaptıktan sonra ana sayfadan PIN işlemleri, geçmiş işlemler ve ödeme geçmişine ulaşabilirsiniz.
+- QR ekranında araç giriş/çıkış işlemleri PIN kodu ile yapılır.
+- Tüm işlemler Firebase Realtime Database üzerinde saklanır.
 
-   ```bash
-    npx expo start
-   ```
+## Ekran Görüntüleri
+> Ekran görüntüleri ekleyebilirsiniz.
 
-In the output, you'll find options to open the app in a
+## Katkıda Bulunma
+Pull request'ler ve öneriler memnuniyetle karşılanır!
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Lisans
+MIT
