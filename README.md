@@ -15,7 +15,11 @@ ParkMate, kullanıcıların araç giriş-çıkış işlemlerini PIN kodu ile kol
 ## Kurulum
 1. **Projeyi klonlayın:**
    ```sh
+<<<<<<< HEAD
    git clone https://github.com/kullaniciadiniz/ParkMate.git
+=======
+   git clone https://github.com/SemihKulekcioglu/ParkMate.git
+>>>>>>> 9039b49a0c99aed487ac5b6bc5133d89a467e1ff
    cd ParkMate
    ```
 2. **Bağımlılıkları yükleyin:**
@@ -42,7 +46,11 @@ ParkMate, kullanıcıların araç giriş-çıkış işlemlerini PIN kodu ile kol
 > Ekran görüntüleri ekleyebilirsiniz.
 
 ## Katkıda Bulunma
+<<<<<<< HEAD
 Pull request'ler ve öneriler memnuniyetle karşılanır!
+=======
+Pull request’ler ve öneriler memnuniyetle karşılanır!
+>>>>>>> 9039b49a0c99aed487ac5b6bc5133d89a467e1ff
 
 ## Lisans
 MIT
